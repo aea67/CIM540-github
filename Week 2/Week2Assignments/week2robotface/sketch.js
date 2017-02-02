@@ -14,7 +14,6 @@ createCanvas(500,500);
 background(0, 0, 0);
 //makes black, because black is the absence of light
 background(154, 199, 230);
-    rect(178, 50, 105);
 // red
 //Hue, Saturation, 
     
@@ -32,7 +31,6 @@ function draw() {
   
  // rect(80, 400, 340, 60);
     rect(70, 350, mouthW, mouthH);
-    rect(178, 50, 105);
     //same exact rectangle
     
 //line(80, 400, 340, 1);
