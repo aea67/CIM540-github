@@ -30,16 +30,26 @@ console.log(message);
 console.log(message2);
 console.log(message * num3);            
 
-
 //Variable Declarations in Setup Function
     
 var messsage3 = "This function only works in setup" ;
-console.log(message3);
-
-    
+console.log(message3);   
 }
 
 
-function draw() {
+function draw() 
+{
 console.log(num)
 }
+
+/* What is the purpose of this exercise?
+I don't know. 
+But Anyways
+None of what you see here will be printed out onto the browser's web page. 
+Clicking index.html from this folder, "Week2Notes_syntax", the windeow in the browser will be empty.
+In order to see what all this coding in this file, "sketch.js" is actually doing follow these instructions:
+1. in the index.html page open in the browser, go to View in the upper panel > 
+2. Developer > 
+3. Developer Tools
+4. Under the console tab, you will see the results of the sketch.js file.
+Errors will be in red. */
