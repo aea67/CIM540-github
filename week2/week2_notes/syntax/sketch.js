@@ -10,24 +10,36 @@ lookin like a
 poem 
 */
 
+//sketch.js
+/* java script (js) file. The file that runs what you see in the browser when you click on the index file.
+
+//NOTES
 //Variables, aka var
-/* establishing the values for the variables you are creating. 
-These variables will be used intthe program you are writing to carry out specific tasks.
+/* establishes values for the variables you are creating. 
+These variables will be used in the program you are writing to carry out specific tasks.
 For instance
+var num = 100;
 the value of the "num" variable is 100. 
 "var" means variable. Name it whatever you like. You usually name it what it corresponds to.
 A number variable corresponds to number values. 
 boolean variables correspond to two values, true or false.
 word variables correspond to whatever message you want to have print out.
 //Global variables
-declared outside of the function, they are global because they can be used anywhere in the program in any functions.
+They can be used anywhere in the program, making them global. This is because they are declared outside of the function.
+//Local Variables
+
 //Functions
 function inside does a certain task. 
-script inside competes a certain ask. function 
-For instance
-function setup() means 
-console.log()
+script inside the function describes that task.
 Within those parantheses goes the variables.
+For instance
+function setup()
+runs script once
+function draw()
+runs script in an infinte loop
+console.log()
+to view the results of the "console" function you must be in the "Console" tab in the Developers Tool Panel on your browser.
+Explained below.
 */
 
 //Global Variable Declarations
@@ -49,8 +61,7 @@ console.log(message);
 console.log(message2);
 console.log(message * num3);            
 
-//Variable Declarations in Setup Function
-    
+//Local Variable Declarations in Setup Function    
 var messsage3 = "This function only works in setup" ;
 console.log(message3);   
 }
