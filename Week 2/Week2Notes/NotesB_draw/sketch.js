@@ -4,22 +4,10 @@ var mouthW = 400;
 var mouthH = 40
 
 function setup() {
-//Create a canvas so the all drawings show up in browser window  
-//width, height
-createCanvas(500,500);
 
-//Making Colors
-//(Red, Green, Blue)
-//(R, G, B)
+createCanvas(500,500);
 background(0, 0, 0);
-//makes black, because black is the absence of light
-background(255, 0, 0);
-// red
-background(125);
-//grayscale
-//Hue, Saturation, 
-    
-  console.log("width : " + width + "    height: " + height);
+console.log("width : " + width + "    height: " + height);
     
 }
 
@@ -35,7 +23,7 @@ function draw() {
     rect(mouthX, mouthY, mouthW, mouthH);
     //same exact rectangle
     
-//line(80, 400, 340, 1);
+//li ne(80, 400, 340, 1);
     line(mouthX, 320, 450, 320);
    // line(mouthX, mouthY + mouthH/2, mouthX + mouthW, mouthy + mouthH/2 ); 
 }
