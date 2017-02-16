@@ -1,18 +1,8 @@
-var mouthX = 25;
-var mouthY = 350;
-var mouthW = 400;
-var mouthH = 60;
-
-var eye1X = 100;
-var eye1Y = 100;
-
-var eye2offset = 300;
-var pupiloffset = 40;
-
-var backgroundColor = 'yellow';
-
-var randNum = 0;
-
+var mouthX = 25;  var mouthY = 350;
+var mouthW = 400; var mouthH = 60;
+var eye1X = 100;  var eye1Y = 100;
+var eye2offset = 300; var pupiloffset = 40;
+var backgroundColor = 'yellow'; var randNum = 0;
 var mapX = 0;
 
 function setup() {

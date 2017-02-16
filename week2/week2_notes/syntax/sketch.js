@@ -40,6 +40,8 @@ runs script in an infinte loop
 console.log()
 to view the results of the "console" function you must be in the "Console" tab in the Developers Tool Panel on your browser.
 Explained below.
+CONSOLE HELPS 
+because it shows you the errors in your code. You can see if you are missing  bracket, etc. 
 */
 
 //Global Variable Declarations

@@ -22,7 +22,7 @@ function draw() {
 
     //eye2
     fill(255)
-    ellipse(eye1X + eye2offset, 100,100);
+    ellipse(eye1X + eye2offset, 100, 100);
     fill(0, 0, 255)
     ellipse(eye1X + eye2offset, eye1Y, 25, 50);
     
