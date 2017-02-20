@@ -79,19 +79,12 @@ frameRate(60);
 }
 
 
-function mousePressed(){
+/*function mousePressed(){
     //background('yellow');
     backgroundColor = 'pink';
     randNum = random(256); //0-255
 }
 
 function mouseReleased(){
-    backgroundColor = 'blue';
-}
-
-
-
-
-
-
-
+    backgroundColor = 'blue';*/
+//}

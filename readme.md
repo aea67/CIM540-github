@@ -1,5 +1,5 @@
 Intro to Creative Coding
-Hello 
+Hello
 Bounjour
 Whatapp
 
@@ -14,5 +14,9 @@ Whatapp
 ![this is message] (image goes here)
 
 * this is list one
- * this is indentation (space *)
- 
+ * this is indentation (space *
+* another one
+
+*)
+*0
+***
