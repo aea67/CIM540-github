@@ -1,3 +1,4 @@
+//Moving No Flash Ball
 var counter = 0; //declare counter to be 0
 var balldir = false; //declaring balldir as a variable. can set to true or false.
                     //will change in if statement

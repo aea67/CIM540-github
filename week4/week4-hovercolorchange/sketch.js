@@ -1,3 +1,4 @@
+//Hover Color Change
 var eColor = 0;
 var counter = 0;
 var bgColor = "pink";
