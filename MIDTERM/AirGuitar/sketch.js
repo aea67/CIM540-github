@@ -7,7 +7,6 @@ var header = "PLAY MODE";
 var counter = 0;
 var tune1 = true;
 
-
 function setup()
 {
   createCanvas(792, 547);
@@ -18,7 +17,6 @@ function setup()
   play.mousePressed(songPlay1);
 
   noStroke(); //cleans lines around guitar
-
        //R, G, B
   fill(157, 134, 70);
   //x coord, y coord, x width, y width
@@ -92,8 +90,88 @@ function setup()
   strokeWeight(12);
   line(0, 370, 792, 370);
 }
+function songPlay1() {
+  console.log("called placebo songPlay1");
+}
+// this function animates notes in song 1
+function drawSong1 (counter) {
+  console.log("begin drawLogic");
+  switch (counter) {
+    case 0:
+      console.log("begin 1");
+      stroke(229, 231, 97); // grays string6
+      strokeWeight(10.5);
+      line(502, 370, 592, 370);
+      console.log("end 1");
+      break;
+    case 1:
+      console.log("begin 2");
+      stroke(229, 231, 97);
+      strokeWeight(10.5);
+      line(502, 298, 592, 298);
+
+      stroke(205); // grays string4
+      strokeWeight(10.5);
+      line(502, 370, 592, 370);
+      console.log("end 2");
+      break;
+    case 2:
+      console.log("begin 3");
+      stroke(229, 231, 97);
+      strokeWeight(10.5);
+      line(502, 262, 592, 262);
+
+      stroke(205); // grays string3
+      strokeWeight(10.5);
+      line(502, 298, 592, 298);
+      console.log("end 3");
+      break;
+    case 3:
+      console.log("start 4");
+      stroke(229, 231, 97);
+      strokeWeight(10.5);
+      line(502, 190, 592, 190);
+
+      stroke(205); //grays string 3
+      strokeWeight(10.5);
+      line(502, 262, 592, 262);
+      console.log("end 4");
+      break;
+    case 4:
+      console.log("start 5");
+      stroke(229, 231, 97);
+      strokeWeight(10.5);
+      line(502, 298, 592, 298);
+
+      stroke(205); // grays string 1
+      strokeWeight(10.5);
+      line(502, 190, 592, 190);
+      console.log("end 5");
+      break;
+    case 5:
+      console.log("start 6");
+      stroke(229, 231, 97);
+      strokeWeight(10.5);
+      line(502, 262, 592, 262);
+
+      stroke(205); // grays string4
+      strokeWeight(10.5);
+      line(502, 298, 592, 298);
+      console.log("end 6");
+      break;
+    default:
+      console.log("start default");
+      stroke(205);
+      strokeWeight(10.5);
+      line(502, 262, 592, 262);
+      console.log("end default");
+      break;
+  }
+  console.log("end drawLogic");
+}
 
 function draw(){
+  frameRate(0.5);
   //HOVER EFFECT
   //FRET 1
   //fret 1, line 1(note G)
@@ -247,8 +325,14 @@ function draw(){
       else{stroke(205)
         strokeWeight(10.5)
         line(502, 370, 592, 370)}
-  }
 
-function songPlay1() {
+    // this code would keep playing sequence infinite times
+    // drawLogic(counter);
+    // counter = (counter+1) % 6;
 
+    // this code will play sequence once and then clear
+    if (counter <= 6) {
+      drawSong1(counter);
+      counter++;
     }
+  }
