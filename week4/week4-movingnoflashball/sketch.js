@@ -21,24 +21,23 @@ function draw() {
     // the height/2 put the y coord in the middle
 
   if(counter < 0) { //limitone: if counter is less than 0,
-    balldir = true;
+    balldir = true; //balldir = true, meaning it goes forward
     console.log("left hit: " + counter)};
 
   if(counter > width) { //limittwo: if bigger than the width
-  balldir = false;
+  balldir = false; //balldir = false, it goes backward
   console.log("right hit: " + counter)};
     //ball bounce back pt1
     //when the ball x coord becomes greater than the width, balldir becomes false.
     //width = R edge of canvas = 381 in this case
 
-//FAST bounce back
+//FAST bounce back (faster code)
   if(balldir == true) {
   counter = counter + 1;}
   else{(counter = counter - 1); } //aka balldir = false
     //ball bounce back pt2
     //counter = counter - 1
     //makes the ball reverse direction on reaching R edge of canvas.
-
 
   if(counter >= 0 && counter <= 127) {fill(154,199,230)}          //0-127x: ball is blue
   else if(counter > 127 && counter <= 254) {fill("mediumorchid")}//128-254: pink

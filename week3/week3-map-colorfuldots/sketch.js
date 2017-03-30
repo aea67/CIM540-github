@@ -20,7 +20,7 @@ function draw() {
     // x , y , width, height
     //background(154, 199, 230)
     ellipse(mouseX, mouseY, 10, 10)
-    frameRate(40);
+    frameRate(4);
 
     mapX = map(mouseX,0,width,-20,20);
     //draw random circles all over
@@ -37,7 +37,7 @@ function draw() {
     ellipse(eye1X + eye2offset, 100,100);
     fill(0, 0, 255)
     ellipse(eye1X + eye2offset +mapX, eye1Y, 25, 50);
-
+    
     fill(255)
     //nose
     triangle(width/2, height/2, (width/2) + 20, (height/2) + 20);
