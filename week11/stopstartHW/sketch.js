@@ -40,7 +40,7 @@ function draw()
   if (currentType == "start") {
     bubble0.move();
   }else if (currentType == "stop") {
-    
+
   }else if (currentType == "reset") {
   bubble0.reset();
 
