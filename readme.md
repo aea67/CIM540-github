@@ -10,7 +10,7 @@ Whatapp
 [google.com] (http://google.com)
 
 ![] image
-![this is message] (image goes here)
+![this is an example of work] (js.png)
 # Making a List
 * this is list one
   * this is indentation (space * )
@@ -18,5 +18,5 @@ Whatapp
 
 
 ***
-what is this
+three stars make a line
 ***
