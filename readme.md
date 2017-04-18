@@ -7,7 +7,7 @@ Whatapp
 ### this is h3
 
 [] link
-[google.com] (http://google.com)
+[google] (https://google.com)
 
 ![] image
 ![image] (js.png)
