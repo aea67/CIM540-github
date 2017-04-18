@@ -13,9 +13,10 @@ Whatapp
 ![this is message] (image goes here)
 # Making a List
 * this is list one
-  * this is indentation (space *
-   * another one
+  * this is indentation (space * )
+    * another one
 
-*)
-*0
+
+***
+what is this
 ***
