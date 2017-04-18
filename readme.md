@@ -10,7 +10,8 @@ Whatapp
 [google.com] (http://google.com)
 
 ![] image
-![this is an example of work] (js.png)
+![image] (CIM540-github/js.png)
+[js.png] (image)
 # Making a List
 * this is list one
   * this is indentation (space * )
